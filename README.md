@@ -113,12 +113,6 @@ Where:
 
 ---
 
-## Nuclear PDF Sets
-
-- **EPPS21**: European nuclear PDF set (2021)
-- **nCTEQ15HQ**: Nuclear CTEQ collaboration set
-- **nNNPDF30**: Nuclear NNPDF set (version 3.0)
-- **TUJU21**: Guzey et al. nuclear PDF set (2021)
 
 ## Contact
 
