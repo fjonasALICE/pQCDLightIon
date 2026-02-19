@@ -2,27 +2,23 @@
 
 This repository contains perturbative QCD calculations for light-ion collisions used in the paper:
 
-> **[Paper Title Placeholder]**  
-> Author 1, Author 2, et al.  
-> *Journal Name*, Volume(Issue), Pages (Year)  
-> arXiv:XXXX.XXXXX [hep-ph]
+> **A compendium of cold-nuclear matter baseline predictions in light-ion collisions**  
+> Florian Jonas, Constantin Loizides, Aleksas Mazeliauskas, Petja Paakkinen, Nicolas Strangmann  
+> arXiv:2602.15928 [hep-ph]
 
 ## Citation
 
 If you use this data, please cite:
 
 ```bibtex
-@article{AuthorYear,
-    author = "Author1, First and Author2, Second and others",
-    title = "{Paper Title Placeholder}",
-    journal = "Journal Name",
-    volume = "XXX",
-    year = "XXXX",
-    pages = "XXX-XXX",
-    doi = "XX.XXXX/journal.XXXX",
-    eprint = "XXXX.XXXXX",
+@article{Jonas:2026yoz,
+    author = "Jonas, Florian and Loizides, Constantin and Mazeliauskas, Aleksas and Paakkinen, Petja and Strangmann, Nicolas",
+    title = "{A compendium of cold-nuclear matter baseline predictions in light-ion collisions}",
+    eprint = "2602.15928",
     archivePrefix = "arXiv",
-    primaryClass = "hep-ph"
+    primaryClass = "hep-ph",
+    month = "2",
+    year = "2026"
 }
 ```
 
@@ -116,4 +112,4 @@ Where:
 
 ## Contact
 
-For questions about this data, please contact [contact information placeholder] or open an issue.
+For questions about this data, please contact Florian Jonas (florian.jonas@cern.ch) or open an issue.
