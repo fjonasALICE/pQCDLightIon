@@ -1,5 +1,7 @@
 # pQCDLightIon
 
+![Nuclear modification factors for charged hadrons in pO, OO, and NeNe collisions](RAAExample.png)
+
 This repository contains perturbative QCD calculations for light-ion collisions used in the paper:
 
 > **A compendium of cold-nuclear matter baseline predictions in light-ion collisions**  
