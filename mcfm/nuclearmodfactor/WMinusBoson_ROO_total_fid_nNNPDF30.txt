@@ -1,0 +1,2 @@
+# tot. fid.   ratio   error
+0.5    1.12841    0.0344338

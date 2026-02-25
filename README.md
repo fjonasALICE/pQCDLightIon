@@ -26,7 +26,7 @@ If you use this data, please cite:
 
 ## Data Organization
 
-This repository contains theoretical predictions for hadron and photon production in light-ion collisions using two calculation frameworks:
+This repository contains theoretical predictions for hadron, photon, and electroweak boson production in light-ion collisions using three calculation frameworks:
 
 ### 1. JETPHOX Calculations ([`jetphox/`](./jetphox/))
 
@@ -89,7 +89,51 @@ Ratios of production cross-sections at different collision energies:
 
 #### 2.3 Derived Ratios ([`incnlo/derivedratios/`](./incnlo/derivedratios/))
 
-Additional derived quantities from the nuclear modification factors.
+Additional derived quantities from the INCNLO nuclear modification factors.
+
+---
+
+### 3. MCFM Calculations ([`mcfm/`](./mcfm/))
+
+Electroweak boson production calculations (W±, Z) and corresponding derived hadron-to-boson ratios:
+
+#### 3.1 Nuclear Modification Factors ([`mcfm/nuclearmodfactor/`](./mcfm/nuclearmodfactor/))
+
+Nuclear modification factors for W and Z bosons:
+
+- **Observables**: R_pO (proton–oxygen), R_OO (oxygen–oxygen)
+- **Boson types**: Z, W⁺, W⁻
+- **Kinematic selections**: total fiducial yields (`total_fid`), rapidity-differential distributions (`y_dep`)
+- **Nuclear PDF sets**:
+  - EPPS21
+  - nCTEQ15HQ
+  - nNNPDF30
+  - TUJU21
+
+**File naming convention**: `[{Boson}]_{Observable}_{selection}_{nPDF}.txt`
+
+**Example files**:
+- `ZBoson_RpO_total_fid_nCTEQ15HQ.txt`
+- `WMinusBoson_ROO_total_fid_nNNPDF30.txt`
+- `ZBoson_RpO_y_dep_nNNPDF30.txt`
+- `WPlusBoson_ROO_total_fid_nNNPDF30.txt`
+
+#### 3.2 Derived Ratios ([`mcfm/derivedratios/`](./mcfm/derivedratios/))
+
+Ratios of INCNLO hadron production to MCFM Z-boson production:
+
+- **Observable**: hadron-over-Z ratio as a function of hadron \(p_T\)
+- **Nuclear PDF sets**:
+  - EPPS21
+  - nCTEQ15HQ
+  - nNNPDF30
+  - TUJU21
+
+**File naming convention**: `HadronOverZ_{nPDF}.txt`
+
+**Example files**:
+- `HadronOverZ_EPPS21.txt`
+- `HadronOverZ_nCTEQ15HQ.txt`
 
 ---
 
