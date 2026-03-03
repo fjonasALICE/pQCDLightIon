@@ -103,7 +103,7 @@ Additional derived quantities constructed from the INCNLO nuclear modification f
 
 - **Forward-rapidity suppression factors**:
   - Files: `S_fwd_pO.txt`, `S_fwd_Op.txt`, `S_fwd_OppO.txt`
-  - **Observable**: integrated suppression factors in selected forward-rapidity regions for the three beam configurations described in the paper.
+  - **Observable**: suppression factors in selected forward-rapidity region for the three beam configurations described in the paper.
 
 
 
