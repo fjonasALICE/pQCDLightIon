@@ -89,7 +89,23 @@ Ratios of production cross-sections at different collision energies:
 
 #### 2.3 Derived Ratios ([`incnlo/derivedratios/`](./incnlo/derivedratios/))
 
-Additional derived quantities from the INCNLO nuclear modification factors.
+Additional derived quantities constructed from the INCNLO nuclear modification factors and JETPHOX photon results:
+
+- **π⁰-over-prompt-photon ratios**:
+  - Files: `RpO_Ratio_pi0_over_PromptPhoton_{nPDF}.txt`, `ROO_Ratio_pi0_over_PromptPhoton_{nPDF}.txt`
+  - **Observable**: ratio of π⁰ nuclear modification factor to prompt-photon nuclear modification factor for a given nuclear PDF set.
+
+- **Suppression factors \(S_n\) for different rapidity intervals**:
+  - Files: `S_lab_v{n}_{nPDF}.txt` and `S_cms_v{n}_{nPDF}.txt` with \(n = 1,2,3,4\)
+  - These correspond to the suppression factors \(S_1, S_2, S_3, S_4\) defined in the paper. The index `v1`, `v2`, etc. in the filenames maps directly to \(S_1, S_2,\dots\) in the text.
+  - The suffix `_lab_` indicates that the rapidity intervals are defined in the **laboratory frame**; in this convention the p–O system is boosted.
+  - The suffix `_cms_` indicates that the rapidity intervals are defined in the **centre-of-mass frame**.
+
+- **Forward-rapidity suppression factors**:
+  - Files: `S_fwd_pO.txt`, `S_fwd_Op.txt`, `S_fwd_OppO.txt`
+  - **Observable**: integrated suppression factors in selected forward-rapidity regions for the three beam configurations described in the paper.
+
+
 
 ---
 
